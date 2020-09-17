@@ -1,0 +1,105 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #35424a;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 2px solid #a9508b;
+  
+}
+header {
+    h3{
+        font-size: 2em;
+    }
+    span{
+        color: #a9508b;
+    }
+    a{
+    color: #ffffff;
+    text-decoration: none;
+    position: relative;
+    padding: 1.5em;
+    top: 3em;
+    }
+    a:hover{
+        color: #fffaf0;
+        font-weight: bold;
+    }
+}
+.search{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: #ffffff;
+    background-color: #35424a;
+    h4{
+        font-size: 1.5em;
+    }
+    .buton{
+        position: relative;
+        top: 1.5em;
+    }
+   button{
+    color: #ffffff;
+    background-color: #a9508b;
+    border: none;
+    height: 3em;
+   }
+    
+   input{
+       height: 2.5em;
+       width: 15rem;
+   }
+}
+.govde{
+    position: relative;
+    border-bottom: 2px solid #a9508b;
+    left: 10em;
+    font-size: 15px;
+    line-height: 1.5;
+
+    div{
+        width: 50%;
+    }
+}
+#a{
+    float: left;
+    background-color: #ffffff;
+}
+#b {
+    color: #ffffff;
+    background-color: #35424a;
+    margin-top: 10px;
+    float: right;
+    position: relative;
+    width: 30%;
+    right: 13em;
+    padding: 10px;
+}
+#c {
+    color: #ffffff;
+    background-color: #35424a;
+    
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    background-color: #fffaf0;
+   
+    
+    p{
+        font-size: smaller;
+    }
+    img{
+        width: 15%;
+    }
+}
